@@ -65,5 +65,7 @@ nav{
   }
   .middle-side .search-box input{
     width: 100px;
+    pointer-events: none;
+    
   }
 }

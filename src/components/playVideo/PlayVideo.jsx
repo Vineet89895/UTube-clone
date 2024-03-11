@@ -131,7 +131,7 @@ const PlayVideo = () => {
         <button>Subscribe</button>
       </div>
       <div className="vid-description">
-        <p>{apiData ? apiData?.snippet?.description?.slice(0, 300) : ""}</p>
+        <p>{apiData ? apiData?.snippet?.description : ""}</p>
 
         <hr />
         <h4>{value_converter(apiData?.statistics?.commentCount)} comments</h4>
